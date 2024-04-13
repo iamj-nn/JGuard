@@ -1,0 +1,16 @@
+name: JGuard
+version: 2.1
+
+main: nn.iamj.guard.loader.plugin.JGuardPlugin
+api-version: 1.13
+depend:
+  - ProtocolLib
+
+description: Multi-threaded and advanced exploit protection.
+author: iamj
+
+prefix: Guard
+
+permissions:
+  jguard.bypass:
+    default: op
